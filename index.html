@@ -41,33 +41,36 @@
         </nav>    
     </header>
 
-    <section class="hero">
-        <div class="hero__persona" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+    <section class="hero" data-aos="fade-down">
+        <div class="hero__persona" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
             <img class="hero__personaFoto" src="./media/hero/fotoPersonal.jpg" alt="">
         </div>
-        <div class="hero__personaTexto d-flex" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+        <div class="hero__personaTexto d-flex" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="1500">
             <H1 class="hero__personaTitulo" >Hola, soy Lisandro</H1>
             <P class="hero__personaDesc">Estudiante de Desarrollo WEB en Argentina Programa 4.0 y Full Stack en CoderHouse. </P>
         </div>
     </section>
 
-    <section class="container">
-        <div class="infoPersonal">
-            <h3>MÁS SOBRE MI</h3>
-            <P>Soy Técnico Mecánico, pero nunca ejercí en mi profesión. Actualmente estoy en el área de sistemas de Casino Victoria, en Entre Ríos. Hace 6 meses me propuse ser desarrollador, por lo que me inscribi en FULL STACK de CoderHouse para darle un giro a mi vida.</P>
+    <section class="infoPersonal row" data-aos="zoom-out-up">
+        <div class="infoPersonal__text d-flex col">
+            <h3 class="infoPersonal__titulo">MÁS SOBRE MI</h3>
+            <P class="infoPersonal__desc ">Soy Técnico Mecánico, pero nunca ejercí en mi profesión. Actualmente estoy en el área de sistemas de Casino Victoria, en Entre Ríos. Hace 6 meses me propuse ser desarrollador, por lo que me inscribi en FULL STACK de CoderHouse para darle un giro a mi vida.</P>
+        </div>
+        <div class="infoPersonal__contImg col-4">
+            <img class="infoPersonal__img" src="./media/foto4x4/foto_personal.jpg" alt="">
         </div>
     </section>
 
     <section class="portfolio container">
         <H3>ALGUNOS DE MIS TRABAJOS</H3>
-        <div class="portfolio__container">
-            <div class="portfolio__card">  
+        <div class="portfolio__container" >
+            <div class="portfolio__card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">  
                     <img class="portfolio__img" src="./media/portfolio/flecha-cangreja.png" alt="">
                     <p class="portfolio_cardTitulo">E-Commerce</p>
                     <p class="portfolio__cardDesc">Proyecto de DW de CoderHouse, unicamente utilizando HTML y css</p>
                     <a href="https://flecha-cangreja.vercel.app/">VISITAR</a>
             </div>
-            <div class="portfolio__card">  
+            <div class="portfolio__card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">  
                 <img class="portfolio__img" src="./media/portfolio/Pagina_en_construccion.jpg" alt="">
                 <p class="portfolio_cardTitulo">E-Commerce - ReactJS</p>
                 <p class="portfolio__cardDesc">Proyecto de React de CoderHouse, aun en construcción</p>
@@ -80,20 +83,20 @@
     <section class="container estudios">
         <h3>ESTUDIOS</h3>
             <div class="row">
-                <div class="col-6 estudios__col">
+                <div class="col-6 estudios__col" data-aos="zoom-in-right" data-aos-duration="2000">
                     <ul>
                         <li><p>CURSO: MS Excel, de basico a avanzado - UDEMY</p></li>
                     </ul>
                 </div>
-                <div class="col-6 estudios__col video-container">
-                    <video src="./media/estudios/excel.mp4" autoplay muted="true" loop="true" class="fillWidth visible-lg"></video>     
+                <div class="col-6 estudios__col video-container" data-aos="fade-left">
+                    <video class="estudios__video" src="./media/estudios/excel.mp4" autoplay muted="true" loop="true" class="fillWidth visible-lg"></video>     
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 estudios__col video-container">
-                    <video src="./media/estudios/switch_background.webm" autoplay muted="true" loop="true" class="fillWidth visible-lg"></video>      
+                <div class="col-6 estudios__col video-container" data-aos="fade-right">
+                    <video class="estudios__video" src="./media/estudios/switch_background.webm" autoplay muted="true" loop="true" class="fillWidth visible-lg"></video>      
                  </div>
-                <div class="col-6 estudios__col">
+                <div class="col-6 estudios__col" data-aos="zoom-in-left" data-aos-duration="2000">
                     <ul>
                         <li><p>CURSO: Introducción a Redes - EDUCACION IT</p></li>
                         <li><p>CURSO: Introducción a Redes Inalámbricas - EDUCACIÓN IT</p></li>
@@ -101,7 +104,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 estudios__col">
+                <div class="col-6 estudios__col" data-aos="zoom-in-right" data-aos-duration="2000">
                     <ul>
                         <li><p>CURSO: ARGENTINA PROGRAMA 4.0 - EN CURSO</p></li>
                         <li><p>CARRERA: Desarrollo Web FULL STACK - CODERHOUSE
@@ -114,8 +117,8 @@
                         </p></li>
                     </ul>
                 </div>
-                <div class="col-6 estudios__col video-container">
-                    <video src="./media/estudios/developer.mp4" autoplay muted="true" loop="true" class="fillWidth visible-lg"></video>
+                <div class="col-6 estudios__col video-container" data-aos="fade-left">
+                    <video class="estudios__video" src="./media/estudios/developer.mp4" autoplay muted="true" loop="true" class="fillWidth visible-lg"></video>
                 </div>
             </div>
     </section>
