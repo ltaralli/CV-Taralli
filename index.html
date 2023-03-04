@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Lisandro Taralli </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    
+
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body class="container-fluid">
+    <header class="header">
+        <nav class="header__nav navbar navbar-expand-lg">
+            <div class="container-fluid header__container>">    
+                    <div>
+                        <a href="#" class="header__anchor">LISANDRO TARALLI</a>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse header__container" id="navbarNav">     
+                        <ul class="header__list navbar-nav">
+                            <li class="header__item nav-item"><a href=".#" class="header__anchor">Info Personal</a></li>
+                            <li class="header__item nav-item"><a href="#" class="header__anchor">Desarrollos</a></li>
+                            <li class="header__item nav-item"><a href="#" class="header__anchor">Estudios</a></li>
+                            <li class="header__item nav-item" ><a href="#" class="header__anchor">Redes</a></li>
+                        </ul>
+                    </div>  
+            </div>
+        </nav>    
+    </header>
+
+    <section class="hero">
+        <div class="hero__persona" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <img class="hero__personaFoto" src="./media/hero/fotoPersonal.jpg" alt="">
+        </div>
+        <div class="hero__personaTexto d-flex" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" data-aos-duration="2000">
+            <H1 class="hero__personaTitulo" >Hola, soy Lisandro</H1>
+            <P class="hero__personaDesc">Estudiante de Desarrollo WEB en Argentina Programa 4.0 y Full Stack en CoderHouse. </P>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="infoPersonal">
+            <h3>MÁS SOBRE MI</h3>
+            <P>Soy Técnico Mecánico, pero nunca ejercí en mi profesión. Actualmente estoy en el área de sistemas de Casino Victoria, en Entre Ríos. Hace 6 meses me propuse ser desarrollador, por lo que me inscribi en FULL STACK de CoderHouse para darle un giro a mi vida.</P>
+        </div>
+    </section>
+
+    <section class="portfolio container">
+        <H3>ALGUNOS DE MIS TRABAJOS</H3>
+        <div class="portfolio__container">
+            <div class="portfolio__card">  
+                    <img class="portfolio__img" src="./media/portfolio/flecha-cangreja.png" alt="">
+                    <p class="portfolio_cardTitulo">E-Commerce</p>
+                    <p class="portfolio__cardDesc">Proyecto de DW de CoderHouse, unicamente utilizando HTML y css</p>
+                    <a href="https://flecha-cangreja.vercel.app/">VISITAR</a>
+            </div>
+            <div class="portfolio__card">  
+                <img class="portfolio__img" src="./media/portfolio/Pagina_en_construccion.jpg" alt="">
+                <p class="portfolio_cardTitulo">E-Commerce - ReactJS</p>
+                <p class="portfolio__cardDesc">Proyecto de React de CoderHouse, aun en construcción</p>
+                <a href="https://flecha-cangreja.vercel.app/">VISITAR</a>
+        </div>
+        </div>
+
+    </section>
+
+    <section class="container estudios">
+        <h3>ESTUDIOS</h3>
+            <div class="row">
+                <div class="col-6 estudios__col">
+                    <ul>
+                        <li><p>CURSO: MS Excel, de basico a avanzado - UDEMY</p></li>
+                    </ul>
+                </div>
+                <div class="col-6 estudios__col video-container">
+                    <video src="./media/estudios/excel.mp4" autoplay muted="true" loop="true" class="fillWidth visible-lg"></video>     
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 estudios__col video-container">
+                    <video src="./media/estudios/switch_background.webm" autoplay muted="true" loop="true" class="fillWidth visible-lg"></video>      
+                 </div>
+                <div class="col-6 estudios__col">
+                    <ul>
+                        <li><p>CURSO: Introducción a Redes - EDUCACION IT</p></li>
+                        <li><p>CURSO: Introducción a Redes Inalámbricas - EDUCACIÓN IT</p></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 estudios__col">
+                    <ul>
+                        <li><p>CURSO: ARGENTINA PROGRAMA 4.0 - EN CURSO</p></li>
+                        <li><p>CARRERA: Desarrollo Web FULL STACK - CODERHOUSE
+                            <ul>
+                                <li>Desarrollo WEB - FINALIZADO</li>
+                                <li>JavaScript - FINALIZADO</li>
+                                <li>ReactJS - EN CURSO</li>
+                                <li>BackEnd - PENDIENTE</li>
+                            </ul>
+                        </p></li>
+                    </ul>
+                </div>
+                <div class="col-6 estudios__col video-container">
+                    <video src="./media/estudios/developer.mp4" autoplay muted="true" loop="true" class="fillWidth visible-lg"></video>
+                </div>
+            </div>
+    </section>
+
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
