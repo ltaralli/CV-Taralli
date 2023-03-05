@@ -67,21 +67,37 @@
         </div>
     </section>
 
-    <section class="portfolio container">
-        <H3>ALGUNOS DE MIS TRABAJOS</H3>
-        <div class="portfolio__container" >
-            <div class="portfolio__card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">  
-                    <img class="portfolio__img" src="./media/portfolio/flecha-cangreja.png" alt="">
-                    <p class="portfolio_cardTitulo">E-Commerce</p>
-                    <p class="portfolio__cardDesc">Proyecto de DW de CoderHouse, unicamente utilizando HTML y css</p>
-                    <a href="https://flecha-cangreja.vercel.app/">VISITAR</a>
+    <section id="portfolio" class="portfolio container-fluid">
+        <H3 class="portfolio__titulo">ALGUNOS DE MIS TRABAJOS</H3>
+        <div class="container__portfolio">
+            <div class="card" data-aos="flip-left" data-aos-duration="1500">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="./media/portfolio/flecha-cangreja.png">
+                        <h3>HTML y CSS</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>Mi primer sitio, proyecto para Desarrollo WEB de Coderhose</p>
+                            <a href="https://flecha-cangreja.vercel.app/">Visitar</a>
+                    </div>
+                </div>
             </div>
-            <div class="portfolio__card" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">  
-                <img class="portfolio__img" src="./media/portfolio/Pagina_en_construccion.jpg" alt="">
-                <p class="portfolio_cardTitulo">E-Commerce - ReactJS</p>
-                <p class="portfolio__cardDesc">Proyecto de React de CoderHouse, aun en construcción</p>
-                <a href="https://flecha-cangreja.vercel.app/">VISITAR</a>
-        </div>
+            <div class="card" data-aos="flip-right" data-aos-duration="1500">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="./media/portfolio/Pagina_en_construccion.jpg">
+                        <h3>ReactJS</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>En creación, para la entrega del proyecto de ReactJS de CoderHouse</p>
+                            <a href="#portfolio">Visitar</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </section>
@@ -90,8 +106,10 @@
         <h3>ESTUDIOS</h3>
             <div class="row">
                 <div class="col-6 estudios__col" data-aos="zoom-in-right" data-aos-duration="2000">
+                    <h5>Datos</h5>
                     <ul>
                         <li><p>CURSO: MS Excel, de basico a avanzado - UDEMY</p></li>
+                        <li><p>CURSO: PowerBI - Eca Capacitaciones</p></li>
                     </ul>
                 </div>
                 <div class="col-6 estudios__col video-container" data-aos="fade-left">
@@ -103,6 +121,7 @@
                     <video class="estudios__video" src="./media/estudios/switch_background.webm" autoplay muted="true" loop="true" class="fillWidth visible-lg"></video>      
                  </div>
                 <div class="col-6 estudios__col" data-aos="zoom-in-left" data-aos-duration="2000">
+                    <h5>Redes</h5>
                     <ul>
                         <li><p>CURSO: Introducción a Redes - EDUCACION IT</p></li>
                         <li><p>CURSO: Introducción a Redes Inalámbricas - EDUCACIÓN IT</p></li>
@@ -111,6 +130,7 @@
             </div>
             <div class="row">
                 <div class="col-6 estudios__col" data-aos="zoom-in-right" data-aos-duration="2000">
+                    <h5>Developer</h5>
                     <ul>
                         <li><p>CURSO: ARGENTINA PROGRAMA 4.0 - EN CURSO</p></li>
                         <li><p>CARRERA: Desarrollo Web FULL STACK - CODERHOUSE
