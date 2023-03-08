@@ -48,15 +48,14 @@ h5{
 }
   .header__anchor:hover {
     color: #3b9edb;
-    border-bottom: #3b9edb solid 4px;
-    margin: 0 0.6rem;
-    font-size: 1.1em; 
+    margin: 0 1rem;
+    scale: 1.1;
   }
 
 .anchor__name:hover {
   color: #3b9edb;
-  margin: 0 0.6rem;
-  font-size: 1.1em; 
+  margin: 0 1rem;
+  scale: 1.1;
 }
 
 
@@ -162,7 +161,7 @@ h5{
 
 
 .container__portfolio{
-  width: 1000px;
+  width: 100vh;
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -255,19 +254,11 @@ h5{
 }
 
 
-
     /* ESTUDIOS */
-
-.video-container{
-  overflow: hidden;
-}
-
-
 
 video.fillWidth {
   width: 100%;
 }
-
 
 .estudios__col{
 display: flex;
@@ -282,27 +273,9 @@ font-weight: 500;
 }
 
 
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  0% {
-    background-position: 0% 50%;
-  }
-}
 
-.logo {
-  text-align: center;
-  font-size: 3em;
-}
 
-.logo span {
-  color: #3b9edb;
-}
-
+      /* CONTACTO */
 .contact-wrapper {
   box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
 }
@@ -360,7 +333,7 @@ font-weight: 500;
   outline: 0;
 }
 
-/* CONTACT INFO */
+          /* CONTACT INFO */
 .contact-info {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #9581f4, #23a6d5, #25d5ab);
   background-size: 400% 400%;
@@ -372,7 +345,7 @@ font-weight: 500;
   margin: 0 0 1rem 0;
 }
 
-/* LARGE SIZE */
+        /* LARGE SIZE (contact info)*/
 @media(min-width: 700px) {
   body {
       padding: 0 4em;
@@ -391,11 +364,65 @@ font-weight: 500;
   }
 }
 
-.redes{
-  
-}
 
 .img__redes{
   max-width: 35px;
   margin: 20px 15px 20px 0
+}
+
+
+        /* GRADIENTE */
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  0% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+@media(max-width: 767px) { 
+
+  /* hero */
+  
+  .hero__personaFoto{
+    max-width: 150px ;
+    margin-bottom: 3rem;
+  }
+
+  .hero__personaTexto{
+    margin: .5rem;
+  }
+
+  .hero__personaTitulo{
+    font-size: 1.9rem;
+  }
+
+  .hero__personaDesc{
+    font-size: 1.2rem ; 
+  }
+
+  /* info personal */
+
+
+  .infoPersonal__desc{
+    padding: .5rem;
+  }
+
+  .infoPersonal__contImg{
+    display: none ;
+  }
+
+  .container__portfolio{
+    flex-direction: column;
+    justify-content: center;
+
+  }
 }
