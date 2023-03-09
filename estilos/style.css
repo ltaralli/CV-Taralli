@@ -138,11 +138,11 @@ h5{
 }
 
 .infoPersonal__contImg{
-  max-width: 100%;
+  display: flex;
 }
 
 .infoPersonal__img{
-  max-width: 100%;
+  object-fit: cover;
 }
 
 
@@ -440,3 +440,60 @@ font-weight: 500;
     font-size: .8em;
   }
 }
+
+@media(max-width: 1023px) {
+
+  .hero__personaFoto{
+    max-width: 250px
+  }
+
+  h3{
+    font-size: 2rem;
+  }
+
+  .header__list {
+    align-items: center;
+  }
+  .hero__personaTitulo{
+    font-size: 2.5em;
+  }
+
+  .hero__personaDesc{
+    font-size: 1.2em;
+    margin-top: 1rem;
+  }
+
+  .infoPersonal__titulo{
+    font-size: 2em;
+  }
+  
+ .portfolio__titulo{
+  margin: 2rem 0;
+ }
+
+ .card{
+  margin: 2rem 0;
+ }
+
+ .estudios__col{
+  font-size: 1em;
+}
+
+
+}
+
+@media(min-width: 1024px) and (max-width: 1400px){
+
+  .hero__personaTitulo{
+     font-size: 3em;
+   }
+
+   .infoPersonal__titulo{
+    font-size: 2.2em;
+  }
+
+  h3{
+    font-size: 2.2rem;
+  }
+
+ }
