@@ -70,58 +70,56 @@
 
     <section id="portfolio" class="portfolio container-fluid">
         <H3 class="portfolio__titulo">ALGUNOS DE MIS TRABAJOS</H3>
-        <div class="container__portfolio">
-            <div class="card" data-aos="flip-left" data-aos-duration="1500">
-                <div class="face face1">
-                    <div class="content">
-                        <img src="./media/portfolio/flecha-cangreja.png">
-                        <h3>HTML y CSS</h3>
-                    </div>
-                </div>
-                <div class="face face2">
-                    <div class="content">
-                        <p>Mi primer sitio, proyecto para Desarrollo WEB de Coderhose</p>
-                            <a href="https://flecha-cangreja.vercel.app/">Visitar</a>
-                    </div>
-                </div>
-            </div>
-            <div class="card" data-aos="flip-right" data-aos-duration="1500">
-                <div class="face face1">
-                    <div class="content">
-                        <img src="./media/portfolio/Pagina_en_construccion.jpg">
-                        <h3>ReactJS</h3>
-                    </div>
-                </div>
-                <div class="face face2">
-                    <div class="content">
-                        <p>En creación, para la entrega del proyecto de ReactJS de CoderHouse</p>
-                            <a href="#portfolio">Visitar</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="container__portfolio container-fluid">
 
+            <div class="card" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                <div><img class="card-img" src="./media/portfolio/flecha-cangreja.png" alt="">
+                </div>
+                    <div class="card-info">
+                      <p class="text-title">HTML</p>
+                      <p class="text-body">Proyecto final realizado en el curso de ReactJS de CoderHouse</p>
+                    </div>
+                <div class="card-footer">
+                    <div class="card-button">
+                      VISITAR
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card" data-aos="flip-up" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+                <div><img class="card-img" src="./media/portfolio/Pagina_en_construccion.jpg" alt="">
+                </div>
+                    <div class="card-info">
+                      <p class="text-title">ReactJS</p>
+                      <p class="text-body">Proyecto en desarrollo para la entrega final del curso de ReactJS de CoderHouse</p>
+                    </div>
+                <div class="card-footer">
+                    <div class="card-button">
+                      VISITAR
+                    </div>
+                </div>
+            </div>
     </section>
 
     <section id="estudios" class="container estudios">
         <h3>ESTUDIOS</h3>
-            <div class="row">
-                <div class="col-6 estudios__col" data-aos="zoom-in-right" data-aos-duration="2000">
+            <div class="row estudios__container flip">
+                <div class="col estudios__col" data-aos="zoom-in-right" data-aos-duration="2000">
                     <h5>Datos</h5>
                     <ul>
                         <li><p>CURSO: MS Excel, de basico a avanzado - UDEMY</p></li>
                         <li><p>CURSO: PowerBI - Eca Capacitaciones</p></li>
                     </ul>
                 </div>
-                <div class="col-6 estudios__col video-container" data-aos="fade-left">
+                <div class="col estudios__col video-container" data-aos="fade-left">
                     <video class="estudios__video" src="./media/estudios/excel.mp4" autoplay muted="true" loop="true" class="fillWidth visible-lg"></video>     
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6 estudios__col video-container" data-aos="fade-right">
+            <div class="row estudios__container">
+                <div class="col estudios__col video-container" data-aos="fade-right">
                     <video class="estudios__video" src="./media/estudios/Switch Background.mp4" autoplay muted="true" loop="true" class="fillWidth visible-lg"></video>      
                  </div>
-                <div class="col-6 estudios__col" data-aos="zoom-in-left" data-aos-duration="2000">
+                <div class="col estudios__col" data-aos="zoom-in-left" data-aos-duration="2000">
                     <h5>Redes</h5>
                     <ul>
                         <li><p>CURSO: Introducción a Redes - EDUCACION IT</p></li>
@@ -129,8 +127,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-6 estudios__col" data-aos="zoom-in-right" data-aos-duration="2000">
+            <div class="row estudios__container flip">
+                <div class="col estudios__col" data-aos="zoom-in-right" data-aos-duration="2000">
                     <h5>Developer</h5>
                     <ul>
                         <li><p>CURSO: ARGENTINA PROGRAMA 4.0 - EN CURSO</p></li>
@@ -144,7 +142,7 @@
                         </p></li>
                     </ul>
                 </div>
-                <div class="col-6 estudios__col video-container" data-aos="fade-left">
+                <div class="col estudios__col video-container" data-aos="fade-left">
                     <video class="estudios__video" src="./media/estudios/developer.mp4" autoplay muted="true" loop="true" class="fillWidth visible-lg"></video>
                 </div>
             </div>
